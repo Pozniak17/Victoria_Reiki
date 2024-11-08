@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #00674f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    color: #00674f;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+  }
+}

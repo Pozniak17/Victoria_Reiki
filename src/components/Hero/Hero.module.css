@@ -1,0 +1,204 @@
+.hero {
+  position: relative;
+  width: 100vw; /* Використовуйте ширину вікна перегляду */
+  height: 300px;
+  text-align: center;
+  background-size: cover;
+  background-image: url("/images/Home/lavanda_desktop1х.jpg");
+  background-position: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* hero_wrapper */
+.hero_wrapper {
+  width: 310px;
+  height: 290px;
+  position: absolute;
+  background-image: url("/public/images/Home/ellipse-mobile.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  top: 48%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.full_size {
+  padding: 0; /* Прибираємо відступи для hero */
+}
+
+/* hero_title */
+.hero_title {
+  width: 222px;
+  height: 76px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--Soft-White, #f5f5f5);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 32px;
+}
+
+.hero_list {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  margin-top: 8px;
+}
+
+.hero_text {
+  color: var(--Soft-White, #f5f5f5);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero_button {
+  color: var(--White, #fff);
+  border-radius: 22px;
+  background: var(--Mangenta, #b329bd);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  width: 136px;
+  height: 36px;
+  border: none;
+  margin-top: 18px;
+}
+
+.hero_button:hover,
+:focus {
+  background: var(--Mangenta-hover, #a62c9c);
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_wrapper {
+    background-image: url("/public/images/Home/ellips-tablet-desktop.png");
+    width: 343px;
+    height: 290px;
+    top: 45%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero_wrapper {
+    width: 551px;
+    height: 431px;
+    top: 48%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_title {
+    width: 318px;
+    height: 76px;
+    margin-top: 22px;
+    color: var(--Soft-White, #f5f5f5);
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero_title {
+    margin-top: 16px;
+    color: var(--Soft-White, #f5f5f5);
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 457px;
+    height: 116px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_list {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero_list {
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_button {
+    color: var(--White, #fff);
+    width: 136px;
+    height: 36px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero_button {
+    width: 170px;
+    height: 45px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero_text {
+    color: var(--Soft-White, #f5f5f5);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero_text {
+    color: var(--Soft-White, #f5f5f5);
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+/* .hero_item { */
+/* margin-bottom: 5px; */
+/* } */
