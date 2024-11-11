@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import css from "./SharedLayout.module.css";
-import MobileMenu from "../MobileMenu/MobileMenu";
-import DesktopMenu from "../DesktopMenu/DesktopMenu";
+import { MobileMenu } from "../MobileMenu";
+import { DesktopMenu } from "../DesktopMenu";
 
-export default function SharedLayout() {
+export function SharedLayout() {
   // Стан для зберігання інформації про ширину вікна
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1440);
 

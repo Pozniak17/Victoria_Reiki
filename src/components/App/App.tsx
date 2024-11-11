@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
-import AboutMe from "./pages/AboutMe/AboutMe";
-import SharedLayout from "./components/SharedLayout/SharedLayout";
+import { Home } from "../../pages/Home";
+import { NotFoundPage } from "../../pages/NotFoundPage";
+import { AboutMe } from "../../pages/AboutMe";
+import { SharedLayout } from "../SharedLayout";
 
-function App() {
+export function App() {
   return (
     <div>
       <SharedLayout />
@@ -16,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

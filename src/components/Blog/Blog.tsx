@@ -1,6 +1,6 @@
 import css from "./Blog.module.css";
 
-export default function Blog() {
+export function Blog() {
   return (
     <section className={css.blog}>
       <h2 className={css.title}>Healing Services Offered</h2>

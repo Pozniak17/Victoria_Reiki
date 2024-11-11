@@ -3,7 +3,7 @@ import { GrLanguage } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
 import css from "./MobileMenu.module.css";
 
-export default function MobileMenu() {
+export function MobileMenu() {
   return (
     <nav className={css.wrapper}>
       <div>

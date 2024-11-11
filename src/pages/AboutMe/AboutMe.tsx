@@ -1,4 +1,4 @@
-export default function AboutMe() {
+export function AboutMe() {
   return (
     <div>
       <h1>This is my story page</h1>

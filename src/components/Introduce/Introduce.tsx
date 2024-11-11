@@ -1,6 +1,10 @@
 import css from "./Introduce.module.css";
 
-export default function Introduce({ text }) {
+type Props = {
+  text: string;
+};
+
+export function Introduce({ text }: Props) {
   return (
     <section className={css.introduce_section}>
       <div className={css.photo_wrapper}>

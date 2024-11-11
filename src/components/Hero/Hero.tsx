@@ -1,6 +1,10 @@
 import css from "./Hero.module.css";
 
-export default function Hero({ heading }) {
+type Props = {
+  heading: string;
+};
+
+export function Hero({ heading }: Props) {
   return (
     <section className={css.hero}>
       <div className={css.hero_wrapper}>

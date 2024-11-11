@@ -2,7 +2,7 @@ import { GrLanguage } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
 import css from "./DesktopMenu.module.css";
 
-export default function DesktopMenu() {
+export function DesktopMenu() {
   return (
     <div className={css.wrapper}>
       <div>
