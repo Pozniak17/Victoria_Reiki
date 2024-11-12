@@ -13,7 +13,7 @@ export function Blog() {
           <img src="" alt="" />
           <img
             className={css.image}
-            src="../../../public/images/Home/blog-photo1.jpg"
+            src="/images/Home/blog-photo1.jpg"
             alt="blog photo"
           />
           <h3 className={css.wrapper_title}>Group Sessions</h3>

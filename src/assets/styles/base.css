@@ -2,28 +2,7 @@ body {
   font-family: var(--main-font);
   color: var(--main-text);
   background-color: var(--main-bg-color);
-
-  margin: 0 auto;
-  padding: 0 16px;
   width: 100%;
-}
-
-@media (min-width: 375px) {
-  body {
-    width: 375px;
-  }
-}
-@media (min-width: 768px) {
-  body {
-    width: 768px;
-    padding: 0 40px;
-  }
-}
-@media (min-width: 1440px) {
-  body {
-    width: 1440px;
-    padding: 0 120px;
-  }
 }
 
 h1,
