@@ -2,7 +2,7 @@ import css from "./Benefits.module.css";
 
 export function Benefits() {
   return (
-    <section className={css.benefits}>
+    <section className={`${css.benefits} ${css.container}`}>
       <div className={css.benefits_wrapper}>
         <ul className={css.image_wrapper}>
           <li className={css.image_item}>

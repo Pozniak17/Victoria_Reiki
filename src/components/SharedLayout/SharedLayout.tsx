@@ -22,7 +22,7 @@ export function SharedLayout() {
   }, []);
 
   return (
-    <header className={css.header}>
+    <header className={`${css.header} ${css.container}`}>
       {isMobile ? <MobileMenu /> : <DesktopMenu />}
     </header>
   );

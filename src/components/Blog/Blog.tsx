@@ -2,7 +2,7 @@ import css from "./Blog.module.css";
 
 export function Blog() {
   return (
-    <section className={css.blog}>
+    <section className={`${css.blog} ${css.container}`}>
       <h2 className={css.title}>Healing Services Offered</h2>
       <p className={css.text}>
         These are the different ways I can support your wellness journey.
