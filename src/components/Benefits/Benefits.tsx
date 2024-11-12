@@ -21,7 +21,7 @@ export function Benefits() {
           </li>
         </ul>
 
-        <div>
+        <div className={css.second_wrapper}>
           <h2 className={css.benefits_title}>Key Benefits</h2>
           <ul className={css.text_wrapper}>
             <li className={css.benefits_item}>
