@@ -2,6 +2,7 @@ import { Benefits } from "../../components/Benefits";
 import { Blog } from "../../components/Blog";
 import { Hero } from "../../components/Hero";
 import { Introduce } from "../../components/Introduce";
+import { VideoIntroduction } from "../../components/VideoIntroduction";
 
 export function Home() {
   return (
@@ -10,6 +11,7 @@ export function Home() {
       <Introduce text="Viktoria, Reiki Master" />
       <Blog />
       <Benefits />
+      <VideoIntroduction />
     </div>
   );
 }
