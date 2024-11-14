@@ -1,0 +1,249 @@
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 375px) {
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 120px;
+  }
+}
+
+.encourages {
+  background: var(--White, #fff);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 343px;
+  color: var(--main-typography, #2c2727);
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  width: 228px;
+  height: 228px;
+}
+
+.second_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_title {
+  color: var(--Title, #00674f);
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 8px;
+}
+
+.second_image {
+  width: 153px;
+}
+
+.list {
+  width: 343px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.accent_title {
+  color: var(--main-typography, #2c2727);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  color: var(--main-typography, #2c2727);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .encourages {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .title {
+    width: 688px;
+    color: var(--main-typography, #2c2727);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+  }
+
+  .second_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .wrapper {
+    width: 688px;
+    margin-bottom: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .second_title {
+    color: var(--Title, #00674f);
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  .image {
+    width: 322px;
+    height: 322px;
+    margin-bottom: 0px;
+  }
+  .second_image {
+    width: 306px;
+  }
+
+  .list {
+    width: 688px;
+  }
+
+  .item {
+    margin-bottom: 32px;
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .text {
+    color: var(--main-typography, #2c2727);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .accent_title {
+    color: var(--main-typography, #2c2727);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .encourages {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .title {
+    width: 1200px;
+    color: var(--main-typography, #2c2727);
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .second_title {
+    color: var(--Title, #00674f);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .second_image {
+    width: 444px;
+  }
+
+  .image {
+    width: 468px;
+    height: 468px;
+  }
+  .wrapper {
+    width: 1200px;
+  }
+
+  .list {
+    width: 1200px;
+  }
+
+  .item {
+    margin-bottom: 48px;
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .accent_title {
+    color: var(--main-typography, #2c2727);
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .text {
+    color: var(--main-typography, #2c2727);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
