@@ -53,7 +53,7 @@ export default function Slider({ data, component: Component }) {
 						isPrevDisabled ? css.disabled : ''
 					}`}
 				>
-					<Icon className={css.icon} id="i-arrow-left" width="44" height="44" />
+					<Icon className={css.icon} id="i-arrow-left" width="24" height="24" />
 				</div>
 				<div
 					className={`${css.swiper_button_next} swiper-button-next ${
@@ -63,8 +63,8 @@ export default function Slider({ data, component: Component }) {
 					<Icon
 						className={css.icon}
 						id="i-arrow-right"
-						width="44"
-						height="44"
+						width="24"
+						height="24"
 					/>
 				</div>
 			</div>

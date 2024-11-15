@@ -1,4 +1,54 @@
+.swiper_buttons_container {
+	/* position: absolute; */
+	/* top: 50%; */
+	/* width: 100%;
+	transform: translateY(-50%); */
+	display: flex;
+	justify-content: space-between;
+}
+
+.swiper_button_prev,
+.swiper_button_next {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* background-color: var(--second-accent-color); */
+	border: 2px solid transparent;
+	transform: translateY(-50%);
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	/* transition: background-color 0.3s; */
+}
+
+.swiper_button_prev:hover,
+.swiper_button_next:hover {
+	border: 2px solid var(--accent-color);
+}
+
 .icon {
 	fill: none;
 	stroke: var(--accent-color);
+}
+
+.swiper_button_prev:hover .icon,
+.swiper_button_next:hover .icon {
+	stroke: var(--accent-color); /* Колір іконки при наведенні */
+	fill: none; /* Колір заповнення іконки при наведенні, якщо потрібно */
+}
+
+.swiper_button_prev.disabled .icon,
+.swiper_button_next.disabled .icon {
+	stroke: var(--second-text-color);
+}
+
+.swiper_button_prev.disabled,
+.swiper_button_next.disabled {
+	border: 2px solid transparent;
+	opacity: 0.5;
+	cursor: default;
 }

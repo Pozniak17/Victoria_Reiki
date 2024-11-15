@@ -1,5 +1,5 @@
 import { Benefits } from '../../components/Benefits';
-import { HealingServices } from '../../components/HealingServices/HealingServices';
+import HealingServices from '../../components/HealingServices/HealingServices';
 import { Hero } from '../../components/Hero';
 import { Introduce } from '../../components/Introduce';
 import { VideoIntroduction } from '../../components/VideoIntroduction';

@@ -1,1 +1,1 @@
-export { HealingServices } from './HealingServices';
+// export { HealingServices } from './HealingServices';
