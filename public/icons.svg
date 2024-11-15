@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="i-arrow-left" viewBox="0 0 32 32">
-      <path stroke-width="1.655" d="M16 2.667C8.636 2.667 2.667 8.637 2.667 16S8.637 29.333 16 29.333c7.364 0 13.333-5.97 13.333-13.333S23.363 2.667 16 2.667z"/>
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.655" d="M21.333 16H10.666m.001 0 4 4m-4-4 4-4"/>
+    <symbol id="i-arrow-left" viewBox="0 0 43 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.333" d="M38.518 16H4.148m0 0 12.889 12.889M4.148 16 17.037 3.111"/>
     </symbol>
-    <symbol id="i-arrow-right" viewBox="0 0 32 32">
-      <path stroke-width="1.655" d="M16 29.333c7.364 0 13.333-5.97 13.333-13.333S23.363 2.667 16 2.667C8.636 2.667 2.667 8.637 2.667 16S8.637 29.333 16 29.333z"/>
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.655" d="M10.667 16h10.667m-.001 0-4-4m4 4-4 4"/>
+    <symbol id="i-arrow-right" viewBox="0 0 43 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.333" d="M4.148 16h34.37m.001 0L25.63 3.111M38.519 16 25.63 28.889"/>
     </symbol>
   </defs>
 </svg>

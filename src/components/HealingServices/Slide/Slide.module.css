@@ -1,0 +1,22 @@
+.slide__container {
+	padding: 16px;
+	display: block;
+	min-height: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 343px;
+	padding: 16px;
+	border-radius: 16px;
+	box-sizing: border-box;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid var(--accent-color);
+	background: var(--card-bg-color);
+	box-shadow: 0px 0px 20px 0px rgba(31, 31, 31, 0.1);
+}
+
+.slide__container:hover,
+.slide__container:focus-within {
+	padding: 15px;
+	border: 2px solid var(--accent-color-hover);
+}
