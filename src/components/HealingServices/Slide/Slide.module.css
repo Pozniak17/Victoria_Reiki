@@ -1,7 +1,7 @@
 .slide__container {
 	padding: 16px;
 	display: block;
-	min-height: 520px;
+	height: 520px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 343px;
@@ -19,4 +19,22 @@
 .slide__container:focus-within {
 	padding: 15px;
 	border: 2px solid var(--accent-color-hover);
+}
+
+@media (min-width: 768px) {
+	.slide__container {
+		height: 528px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.slide__container {
+		height: 550px;
+		padding: 24px;
+	}
+
+	.slide__container:hover,
+	.slide__container:focus-within {
+		padding: 23px;
+	}
 }

@@ -15,7 +15,7 @@ export default function HealingServices() {
 	});
 
 	return (
-		<section className={`${css.container} ${css.healing__container}`}>
+		<section className={css.container}>
 			<h2 className={css.title}>Healing Services Offered</h2>
 			<p className={css.description}>
 				These are the different ways I can support your wellness journey.

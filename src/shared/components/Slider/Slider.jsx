@@ -32,8 +32,20 @@ export default function Slider({ data, component: Component }) {
 		<div className={css.swiper_container}>
 			<Swiper
 				grabCursor={true}
-				slidesPerView={3}
-				spaceBetween={30}
+				breakpoints={{
+					320: {
+						slidesPerView: 1,
+						spaceBetween: 16,
+					},
+					768: {
+						slidesPerView: 2,
+						spaceBetween: 24,
+					},
+					1440: {
+						slidesPerView: 3,
+						spaceBetween: 24,
+					},
+				}}
 				modules={[Navigation]}
 				navigation={{
 					nextEl: `.${css.swiper_button_next}`,
