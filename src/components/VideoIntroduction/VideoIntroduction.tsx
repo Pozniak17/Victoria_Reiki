@@ -1,7 +1,11 @@
 import ReactPlayer from "react-player";
 import css from "./VideoIntroduction.module.css";
 
-export function VideoIntroduction() {
+type Props = {
+  videoUrl: string;
+};
+
+export function VideoIntroduction({ videoUrl }: Props) {
   return (
     <section className={`${css.video_introduction} ${css.container}`}>
       <div className={css.wrapper}>
@@ -11,7 +15,7 @@ export function VideoIntroduction() {
             style={{ borderRadius: "16px" }}
             width="100%"
             height="100%"
-            url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+            url={videoUrl}
           />
         </div>
       </div>
