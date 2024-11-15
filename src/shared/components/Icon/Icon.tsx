@@ -1,5 +1,3 @@
-import sprite from '../../../../public/icons.svg';
-
 export default function Icon({ className, width, height, id, onClick }) {
 	return (
 		<>
@@ -9,7 +7,7 @@ export default function Icon({ className, width, height, id, onClick }) {
 				height={height}
 				onClick={onClick}
 			>
-				<use href={`${sprite}#${id}`} />
+				<use href={`/icons.svg#${id}`} />
 			</svg>
 		</>
 	);

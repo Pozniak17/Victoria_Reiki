@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-left" viewBox="0 0 43 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.333" d="M38.518 16H4.148m0 0 12.889 12.889M4.148 16 17.037 3.111"/>
+    </symbol>
+    <symbol id="icon-right" viewBox="0 0 43 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.333" d="M4.148 16h34.37m.001 0L25.63 3.111M38.519 16 25.63 28.889"/>
+    </symbol>
+  </defs>
+</svg>
