@@ -1,7 +1,6 @@
 import { Benefits } from '../../components/Benefits';
 import { Encourages } from '../../components/Encourages';
 import HealingServices from '../../components/HealingServices/HealingServices';
-
 import { Hero } from '../../components/Hero';
 import { Introduce } from '../../components/Introduce';
 import { VideoIntroduction } from '../../components/VideoIntroduction';
