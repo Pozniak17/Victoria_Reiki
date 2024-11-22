@@ -1,6 +1,8 @@
 .slide__container {
 	padding: 16px;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	height: 520px;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,17 +26,69 @@
 @media (min-width: 768px) {
 	.slide__container {
 		height: 528px;
+		width: 332px;
 	}
 }
 
 @media (min-width: 1440px) {
 	.slide__container {
-		height: 550px;
+		width: 384px;
+		height: 557px;
 		padding: 24px;
 	}
 
 	.slide__container:hover,
 	.slide__container:focus-within {
 		padding: 23px;
+	}
+}
+
+.title {
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--main-text);
+	margin-top: 16px;
+	text-align: left;
+	align-self: flex-start;
+}
+
+.descript {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color: var(--text-color);
+	margin-top: 8px;
+	height: 120px; /* Встановлює фіксовану висоту */
+	overflow: hidden; /* Ховає текст, що виходить за межі */
+	text-overflow: ellipsis; /* Додає трикрапку */
+	display: -webkit-box; /* Для багаторядкового ellipsis */
+	-webkit-line-clamp: 6; /* Вказує кількість рядків (3) */
+	-webkit-box-orient: vertical; /* Вертикальна орієнтація */
+}
+
+.btn {
+	text-align: center;
+	margin-top: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	color: var(--el-text);
+	background-color: var(--accent-color);
+	border-radius: 100px;
+	border: none;
+	padding: 12px 40px;
+	cursor: pointer;
+}
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+	.title {
+		font-size: 24px;
+		margin-top: 24px;
+	}
+	.descript {
+		font-size: 16px;
+		/* line-height: 125%; */
 	}
 }
