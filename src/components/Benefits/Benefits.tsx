@@ -37,7 +37,7 @@ export function Benefits() {
               <p className={css.text}>
                 <span className={css.accent_text}>
                   Enhances Emotional Health
-                </span>{" "}
+                </span>
                 – Helps release emotional blockages, promoting peace and inner
                 harmony.
               </p>
